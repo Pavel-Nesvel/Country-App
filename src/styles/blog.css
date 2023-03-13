@@ -1,0 +1,41 @@
+body{
+    background: #f1f1f1;
+}
+
+.blog_container h1{
+    text-align: center;
+    margin: 10px 0;
+}
+.blog_container form{
+    min-width: 400px;
+    max-width: 600px;
+    width: 50%;
+    display: grid;
+    text-align: center;
+    margin: 0 auto;
+}
+.blog_container input, textarea{
+    margin: 5px 0;
+    padding: 15px;
+    border-radius: 10px;
+    border: 1px solid cyan;
+    resize: none;
+    box-shadow: 0 2px 6px rgba(140, 63, 63, 0.05);
+
+}
+.blog_container textarea{
+    height: 90px;
+}
+input[type="submit"] {
+    width: 200px;
+    margin-left: auto;
+    cursor: pointer;
+    transition: 0.4s;
+    background: cyan;
+    border-radius: 10px;
+}
+ form p{
+        font-size: 0.8rem;
+        color: red;
+    
+}

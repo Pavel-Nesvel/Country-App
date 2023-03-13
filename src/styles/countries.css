@@ -1,0 +1,12 @@
+
+.countries{
+    text-align: center;
+    margin-top: 45px;
+}
+ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
